@@ -1,28 +1,37 @@
 {
-  "Items": [
+  "dashboard":[
     {
-      "id": 1,
-      "Name": "Item 1",
-      "Price": "2",
-      "Description": "Description 1"
-    },
-    {
-      "id": 2,
-      "Name": "Item 2",
-      "Price": "2",
-      "Description": "Description 2"
-    },
-    {
-      "id": 3,
-      "Name": "Item 3",
-      "Price": "3",
-      "Description": "Description 3"
-    },
-    {
-      "id": 4,
-      "Name": "Item 4",
-      "Price": "3",
-      "Description": "Description 4"
+        "post":2,
+        "like":5,
+        "comments":44
+
     }
-  ]
-}
+  
+  ],
+    "Items": [
+      {
+        "id": 1,
+        "Name": "Item 1",
+        "Price": "$125",
+        "Description": "Description 1"
+      },
+      {
+        "id": 2,
+        "Name": "Item 2",
+        "Price": "$87",
+        "Description": "Description 2"
+      },
+      {
+        "id": 3,
+        "Name": "Item 3",
+        "Price": "$52",
+        "Description": "Description 3"
+      },
+      {
+        "id": 4,
+        "Name": "Item 4",
+        "Price": "$26",
+        "Description": "Description 4"
+      }
+    ]
+  }
