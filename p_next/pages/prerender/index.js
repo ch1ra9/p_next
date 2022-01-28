@@ -46,8 +46,7 @@ export default prerender;
 
 export const getServerSideProps = async () => {
     const res = await axios.get('https://jsonplaceholder.typicode.com/posts');
-    console.log('@@', res);
-
+  
     return {
         props: {
             data: res.data,
