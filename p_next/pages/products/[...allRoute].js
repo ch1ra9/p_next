@@ -1,7 +1,6 @@
 import { useRouter } from 'next/router';
-import React from 'react';
 
-function allRoute() {
+function AllRoute() {
     
     const router = useRouter()
     const { allRoute } = router.query
@@ -10,4 +9,4 @@ function allRoute() {
     return <div></div>;
 }
 
-export default allRoute;
+export default AllRoute;

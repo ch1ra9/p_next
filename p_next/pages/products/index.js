@@ -1,10 +1,9 @@
 import { useRouter } from 'next/router';
-import React from 'react';
 
-function index() {
+function Index() {
     const r = useRouter()
    
   return <div>hi this is product page</div>;
 }
 
-export default index;
+export default Index;
