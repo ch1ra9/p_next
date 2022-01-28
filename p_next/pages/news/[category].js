@@ -19,6 +19,7 @@ function category({data,category}) {
   </div>;
 }
 
+
 export default category;
 
 
