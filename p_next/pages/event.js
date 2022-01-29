@@ -7,42 +7,46 @@ import { useState } from 'react';
 
 function eventList({ eventlist }) {
     console.log(eventlist);
-    // const [Events, setEvents] = useState({});
+     const [Events, setEvents] = useState(eventlist);
 
-    // const buttonHandler = async () => {
-    //     const r = await (await axios.get('http://localhost:4000/events?categpry=sports')).data
-    //     console.log(r);
+    const buttonHandler = async () => {
+        const r =  (await axios.get('http://localhost:4000/events?category=sports')).data
+        console.log(r);
+        setEvents(r)
 
 
-    // }
-    return <div>
+    }
+    return (<div>
         <button onClick={buttonHandler}>
-            b
+            sports
         </button>
+       
         <div>list of events</div>{
-            eventlist.map(e => {
+            Events.map(e => {
 
                 return (
 
-                    <div>{e.id} {e.category} {e.name}</div>
+                    <div key={e.id}>{e.id} {e.category} {e.name}</div>
                 )
 
             })
         }
 
-    </div>;
+    </div>
+    )
 }
 
 export default eventList;
 
 
 export const getServerSideProps = async () => {
-    const res = await axios("http://localhost:4000/events").data
+    const res = await axios("http://localhost:4000/events")
+    const d= res.data
 
     //console.log(res.data);
     return {
         props: {
-            eventlist: res
+            eventlist: d
         }
     }
 }
