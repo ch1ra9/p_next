@@ -1,0 +1,70 @@
+{
+  "events":[
+    {
+      "id":1,
+      "category":"sports",
+      "name":"hi"
+    }, {
+      "id":2,
+      "category":"code",
+      "name":"hi"
+    }, {
+      "id":3,
+      "category":"code",
+      "name":"sdf"
+    }, {
+      "id":4,
+      "category":"sports",
+      "name":"hi"
+    }, {
+      "id":5,
+      "category":"hi",
+      "name":"hi"
+    }
+  ],
+  "dashboard":[
+    {
+        "post":345,
+        "like":34,
+        "comments":421
+
+    }, {
+        "post":232,
+        "like":534,
+        "comments":2
+
+    }, {
+        "post":245,
+        "like":56455,
+        "comments":454
+
+    }
+  
+  ],
+    "Items": [
+      {
+        "id": 1,
+        "Name": "Item 1",
+        "Price": "$125",
+        "Description": "Description 1"
+      },
+      {
+        "id": 2,
+        "Name": "Item 2",
+        "Price": "$87",
+        "Description": "Description 2"
+      },
+      {
+        "id": 3,
+        "Name": "Item 3",
+        "Price": "$52",
+        "Description": "Description 3"
+      },
+      {
+        "id": 4,
+        "Name": "Item 4",
+        "Price": "$26",
+        "Description": "Description 4"
+      }
+    ]
+  }
