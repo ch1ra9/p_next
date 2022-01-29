@@ -1,9 +1,42 @@
 {
+  "events":[
+    {
+      "id":1,
+      "category":"sports",
+      "name":"hi"
+    }, {
+      "id":2,
+      "category":"code",
+      "name":"hi"
+    }, {
+      "id":3,
+      "category":"code",
+      "name":"sdf"
+    }, {
+      "id":4,
+      "category":"sports",
+      "name":"hi"
+    }, {
+      "id":5,
+      "category":"hi",
+      "name":"hi"
+    }
+  ],
   "dashboard":[
     {
-        "post":2,
-        "like":5,
-        "comments":44
+        "post":345,
+        "like":34,
+        "comments":421
+
+    }, {
+        "post":232,
+        "like":534,
+        "comments":2
+
+    }, {
+        "post":245,
+        "like":56455,
+        "comments":454
 
     }
   

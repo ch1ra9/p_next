@@ -9,11 +9,23 @@ function dashboard() {
         const fetchDashbordData = async () => {
             const res = await axios.get('http://localhost:4000/dashboard')
             console.log(res.data);
+            setDashboardData(res.data)
 
         }; fetchDashbordData()
     }, []);
+    if (Loading) {
+        return (<>
+            <div>
+                Loading......
+            </div>
+        </>)
+    } else {
+        return <div>
+            <div>dasbord</div>
+            <h2></h2>
+        </div>;
+    }
 
-    return <div>hi there</div>;
 }
 
 export default dashboard;
